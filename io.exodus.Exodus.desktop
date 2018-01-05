@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=Exodus
+Comment=All-in-one app to secure, manage, and exchange blockchain assets
+Keywords=bitcoin;crypto;coin;ethereum;litecoin;wallet;
+Exec=exodus
+Icon=io.exodus.Exodus

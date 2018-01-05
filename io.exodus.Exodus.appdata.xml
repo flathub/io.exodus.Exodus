@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>io.exodus.Exodus.desktop</id>
+  <name>Exodus</name>
+  <developer_name>Exodus</developer_name>
+  <summary>All-in-one app to secure, manage, and exchange blockchain assets</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+  <url type="homepage">https://www.exodus.io/</url>
+  <icon type="remote" height="128" width="128">https://cdn-images-1.medium.com/fit/c/100/100/0*YbJNvKJDIlE9thh7.jpg</icon>
+  <screenshots>
+    <screenshot type="default">https://www.exodus.io/img/exodus-portfolio-2017-08@2x.jpg</screenshot>
+    <screenshot>https://www.exodus.io/img/exodus-exchange-aurora-ss@2x.jpg</screenshot>
+    <screenshot>https://www.exodus.io/img/exodus-wallet-btc@2x.jpg</screenshot>
+  </screenshots>
+  <releases>
+    <release date="2017-12-21" version="1.41.0"/>
+  </releases>
+  <update_contact>tingping_at_fedoraproject.org</update_contact>
+</component>
