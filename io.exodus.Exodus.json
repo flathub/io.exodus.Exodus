@@ -30,10 +30,10 @@
           "type": "script",
           "dest-filename": "apply_extra",
           "commands": [
-            "unzip exodus.zip",
+            "unzip exodus.zip > /dev/null",
             "mv Exodus-linux-x64/* .",
 
-            "unzip icons.zip",
+            "unzip icons.zip > /dev/null",
             "for icon_size in 16 32 128 256 512; do
                  install -Dm644 icons/icon_${icon_size}x${icon_size}.png export/share/icons/hicolor/${icon_size}x${icon_size}/apps/io.exodus.Exodus.png
              done",
