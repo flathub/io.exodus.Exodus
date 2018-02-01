@@ -4,5 +4,6 @@ Terminal=false
 Name=Exodus
 Comment=All-in-one app to secure, manage, and exchange blockchain assets
 Keywords=bitcoin;crypto;coin;ethereum;litecoin;wallet;
+Categories=Utility;
 Exec=exodus
 Icon=io.exodus.Exodus
