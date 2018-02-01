@@ -4,6 +4,11 @@
   <name>Exodus</name>
   <developer_name>Exodus</developer_name>
   <summary>All-in-one app to secure, manage, and exchange blockchain assets</summary>
+  <description>
+    <p>CONTROL YOUR KEYS: Exodus encrypts private keys and transaction data locally for your eyes only. Your data remains private - no account setup required.</p>
+    <p>BEAUTIFUL LIVE CHARTS: Track the value of your blockchain asset portfolio, in real time, as market conditions change.</p>
+    <p>PERSONALIZED FOR YOU: Like darker themes? How about a subtle space background? Exodus gives you a personal look with everything from traditional gray to patterns or customized themes.</p>
+  </description>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
   <url type="homepage">https://www.exodus.io/</url>
