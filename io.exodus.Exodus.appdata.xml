@@ -12,12 +12,16 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
   <url type="homepage">https://www.exodus.io/</url>
-  <icon type="remote" height="128" width="128">https://cdn-images-1.medium.com/fit/c/100/100/0*YbJNvKJDIlE9thh7.jpg</icon>
+  <icon type="remote" height="64" width="64">https://cdn-images-1.medium.com/fit/c/64/64/0*YbJNvKJDIlE9thh7.jpg</icon>
+  <icon type="remote" height="128" width="128">https://cdn-images-1.medium.com/fit/c/128/128/0*YbJNvKJDIlE9thh7.jpg</icon>
   <screenshots>
     <screenshot type="default">https://www.exodus.io/img/exodus-portfolio-2017-08@2x.jpg</screenshot>
     <screenshot>https://www.exodus.io/img/exodus-exchange-aurora-ss@2x.jpg</screenshot>
     <screenshot>https://www.exodus.io/img/exodus-wallet-btc@2x.jpg</screenshot>
   </screenshots>
+  <categories>
+    <category>Utility</category>
+  </categories>
   <releases>
     <release date="2017-12-21" version="1.41.0"/>
   </releases>
