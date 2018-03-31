@@ -1,0 +1,9 @@
+#!/bin/sh
+unzip exodus.zip > /dev/null
+mv Exodus-linux-x64/* .
+unzip icons.zip > /dev/null
+for icon_size in 16 32 128 256 512; do
+                 install -Dm644 icons/icon_${icon_size}x${icon_size}.png export/share/icons/hicolor/${icon_size}x${icon_size}/apps/io.exodus.Exodus.png
+             done
+rm -r icons Exodus-linux-x64 *.zip
+install -Dm644 /app/share/applications/exodus.desktop export/share/applications/io.exodus.Exodus.desktop
