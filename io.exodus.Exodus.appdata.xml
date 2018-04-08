@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<client?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
   <id>io.exodus.Exodus.desktop</id>
   <name>Exodus</name>
@@ -23,7 +23,7 @@
     <category>Utility</category>
   </categories>
   <releases>
-    <release date="2018-02-04" version="1.44.1"/>
+    <release date="2018-03-04" version="1.47.2"/>
   </releases>
   <update_contact>tingping_at_fedoraproject.org</update_contact>
 </component>

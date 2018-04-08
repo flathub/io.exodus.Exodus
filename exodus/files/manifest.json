@@ -1,0 +1,78 @@
+{
+  "id" : "io.exodus.Exodus",
+  "branch" : "stable",
+  "runtime" : "org.freedesktop.Platform",
+  "runtime-version" : "1.6",
+  "runtime-commit" : "ec0a87201c45bf167ba1cf801bba0fc12eacc06617298157d48f774ae993a202",
+  "sdk" : "org.freedesktop.Sdk",
+  "sdk-commit" : "e5dec92f1035168e4b6274a303213603e1a61a4cb7e3541c98dffbd973df7935",
+  "base" : "io.atom.electron.BaseApp",
+  "base-version" : "stable",
+  "base-commit" : "8deb59971f2867aa9a01b99c5a22543340056e2d82233a92c45e9d65cdace135",
+  "command" : "exodus",
+  "modules" : [
+    {
+      "name" : "exodus",
+      "buildsystem" : "simple",
+      "sources" : [
+        {
+          "commands" : [
+            "unzip exodus.zip > /dev/null",
+            "mv Exodus-linux-x64/* .",
+            "unzip icons.zip > /dev/null",
+            "for icon_size in 16 32 128 256 512; do\n                 install -Dm644 icons/icon_${icon_size}x${icon_size}.png export/share/icons/hicolor/${icon_size}x${icon_size}/apps/io.exodus.Exodus.png\n             done",
+            "rm -r icons Exodus-linux-x64 *.zip",
+            "install -Dm644 /app/share/applications/exodus.desktop export/share/applications/io.exodus.Exodus.desktop"
+          ],
+          "dest-filename" : "apply_extra",
+          "type" : "script"
+        },
+        {
+          "commands" : [
+            "exec env TMPDIR=$XDG_CACHE_HOME /app/extra/Exodus $@"
+          ],
+          "dest-filename" : "exodus",
+          "type" : "script"
+        },
+        {
+          "filename" : "exodus.zip",
+          "url" : "https://exodusbin.azureedge.net/releases/exodus-linux-x64-1.47.2.zip",
+          "sha256" : "6ef37c1570de222e4e9756c6ed9ca7977031758948e79e3f73acfff54c0d92a7",
+          "size" : 71019456,
+          "type" : "extra-data"
+        },
+        {
+          "filename" : "icons.zip",
+          "url" : "http://marceloneil.com/exodus-icons/icons.zip",
+          "sha256" : "5f3da3a79fea80477f38e698a2ea1723320f4b3fc90bf7d615dab12af0d34c1a",
+          "size" : 86587,
+          "type" : "extra-data"
+        },
+        {
+          "path" : "io.exodus.Exodus.desktop",
+          "type" : "file"
+        },
+        {
+          "path" : "io.exodus.Exodus.appdata.xml",
+          "type" : "file"
+        }
+      ],
+      "build-commands" : [
+        "install -Dm644 io.exodus.Exodus.desktop /app/share/applications/exodus.desktop",
+        "install -Dm644 io.exodus.Exodus.appdata.xml /app/share/appdata/io.exodus.Exodus.appdata.xml",
+        "install -D apply_extra /app/bin/apply_extra",
+        "install -D exodus /app/bin/exodus"
+      ]
+    }
+  ],
+  "separate-locales" : false,
+  "finish-args" : [
+    "--share=ipc",
+    "--share=network",
+    "--socket=x11",
+    "--device=dri"
+  ],
+  "tags" : [
+    "proprietary"
+  ]
+}

@@ -1,0 +1,5 @@
+[Runtime]
+name=io.exodus.Exodus.Debug
+
+[ExtensionOf]
+ref=app/io.exodus.Exodus/x86_64/stable
