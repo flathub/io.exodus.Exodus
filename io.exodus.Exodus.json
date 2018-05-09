@@ -51,9 +51,9 @@
         },
         {
           "type": "extra-data",
-          "url": "https://exodusbin.azureedge.net/releases/exodus-linux-x64-1.48.1.zip",
-          "sha256": "b3202f40a177f125ace0bdb89dcace315cf91c7c057217b7f2abfc3e02d87109",
-          "size": 73348659,
+          "url": "https://exodusbin.azureedge.net/releases/exodus-linux-x64-1.50.1.zip",
+          "sha256": "b1e1e5c3a9df8219efc3a92138cf4fe79f853e8f9ab7274ef73f585603a61ce9",
+          "size": 73999914,
           "filename": "exodus.zip"
         },
         {
