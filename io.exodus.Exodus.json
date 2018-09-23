@@ -1,7 +1,7 @@
 {
   "app-id": "io.exodus.Exodus",
   "branch": "stable",
-  "base": "io.atom.electron.BaseApp",
+  "base": "org.electronjs.Electron2.BaseApp",
   "base-version": "18.08",
   "runtime": "org.freedesktop.Platform",
   "runtime-version": "18.08",
@@ -51,9 +51,9 @@
         },
         {
           "type": "extra-data",
-          "url": "https://exodusbin.azureedge.net/releases/exodus-linux-x64-1.58.2.zip",
-          "sha256": "c7d22e34589af496c2d9b4c9d8a04858780059db5434a95347d72cc7de32850f",
-          "size": 72181811,
+          "url": "https://exodusbin.azureedge.net/releases/exodus-linux-x64-1.60.0.zip",
+          "sha256": "e7abddf4b41074ff4f7f2a44ca0c036d6f1b2b19ce066ee94f09ff834c20cdec",
+          "size": 73559656,
           "filename": "exodus.zip"
         },
         {
