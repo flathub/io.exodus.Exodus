@@ -23,7 +23,7 @@
     <category>Utility</category>
   </categories>
   <releases>
-    <release date="2018-11-08" version="1.64.0"/>
+    <release date="2018-12-06" version="18.12.6"/>
   </releases>
   <update_contact>tingping_at_fedoraproject.org</update_contact>
 </component>
