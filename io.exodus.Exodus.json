@@ -51,9 +51,9 @@
         },
         {
           "type": "extra-data",
-          "url": "https://exodusbin.azureedge.net/releases/exodus-linux-x64-18.12.6.zip",
-          "sha256": "b1f05a0a776b0993c09a2c24c7332c2622878a83388d80a3d11602ef010debce",
-          "size": 73952952,
+          "url": "https://exodusbin.azureedge.net/releases/exodus-linux-x64-18.12.24.zip",
+          "sha256": "68f86fa86dc36a7383562708a93a4940c9e983628caf95cd7192c0397bcf92d6",
+          "size": 73592792,
           "filename": "exodus.zip"
         },
         {
