@@ -12,8 +12,6 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
   <url type="homepage">https://www.exodus.io/</url>
-  <icon type="remote" height="64" width="64">https://cdn-images-1.medium.com/fit/c/64/64/0*YbJNvKJDIlE9thh7.jpg</icon>
-  <icon type="remote" height="128" width="128">https://cdn-images-1.medium.com/fit/c/128/128/0*YbJNvKJDIlE9thh7.jpg</icon>
   <screenshots>
     <screenshot type="default">https://www.exodus.io/img/exodus-portfolio-2017-08@2x.jpg</screenshot>
     <screenshot>https://www.exodus.io/img/exodus-exchange-aurora-ss@2x.jpg</screenshot>
@@ -23,7 +21,7 @@
     <category>Utility</category>
   </categories>
   <releases>
-    <release date="2018-12-24" version="18.12.24"/>
+    <release date="2019-01-05" version="19.1.5"/>
   </releases>
   <update_contact>tingping_at_fedoraproject.org</update_contact>
 </component>
