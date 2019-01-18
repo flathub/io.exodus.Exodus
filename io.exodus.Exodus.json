@@ -22,6 +22,7 @@
       "build-commands": [
         "install -Dm644 io.exodus.Exodus.desktop /app/share/applications/exodus.desktop",
         "install -Dm644 io.exodus.Exodus.appdata.xml /app/share/appdata/io.exodus.Exodus.appdata.xml",
+        "install -Dm644 -t /app/share/icons/hicolor/scalable/apps io.exodus.Exodus.svg",
         "install -D apply_extra /app/bin/apply_extra",
         "install -D exodus /app/bin/exodus"
       ],
@@ -32,14 +33,8 @@
           "commands": [
             "unzip exodus.zip > /dev/null",
             "mv Exodus-linux-x64/* .",
-
-            "unzip icons.zip > /dev/null",
-            "for icon_size in 16 32 128 256 512; do
-                 install -Dm644 icons/icon_${icon_size}x${icon_size}.png export/share/icons/hicolor/${icon_size}x${icon_size}/apps/io.exodus.Exodus.png
-             done",
-             "rm -r icons Exodus-linux-x64 *.zip",
-
-             "install -Dm644 /app/share/applications/exodus.desktop export/share/applications/io.exodus.Exodus.desktop"
+            "rm -r Exodus-linux-x64 *.zip",
+            "install -Dm644 /app/share/applications/exodus.desktop export/share/applications/io.exodus.Exodus.desktop"
           ]
         },
         {
@@ -51,17 +46,14 @@
         },
         {
           "type": "extra-data",
-          "url": "https://exodusbin.azureedge.net/releases/exodus-linux-x64-18.12.24.zip",
-          "sha256": "68f86fa86dc36a7383562708a93a4940c9e983628caf95cd7192c0397bcf92d6",
-          "size": 73592792,
+          "url": "https://exodusbin.azureedge.net/releases/exodus-linux-x64-19.1.5.zip",
+          "sha256": "3759d62e5f397eb1ba9aff669a936fca0685216b2b4a4636e4bd516777777096",
+          "size": 77902405,
           "filename": "exodus.zip"
         },
         {
-          "type": "extra-data",
-          "url": "http://marceloneil.com/exodus-icons/icons.zip",
-          "sha256": "5f3da3a79fea80477f38e698a2ea1723320f4b3fc90bf7d615dab12af0d34c1a",
-          "size": 86587,
-          "filename": "icons.zip"
+          "type": "file",
+          "path": "io.exodus.Exodus.svg"
         },
         {
           "type": "file",
