@@ -13,9 +13,9 @@
   <project_license>LicenseRef-proprietary</project_license>
   <url type="homepage">https://www.exodus.io/</url>
   <screenshots>
-    <screenshot type="default">https://www.exodus.io/img/exodus-portfolio-2017-08@2x.jpg</screenshot>
-    <screenshot>https://www.exodus.io/img/exodus-exchange-aurora-ss@2x.jpg</screenshot>
-    <screenshot>https://www.exodus.io/img/exodus-wallet-btc@2x.jpg</screenshot>
+    <screenshot type="default">https://www.exodus.io/download/images/portfolio.png</screenshot>
+    <screenshot>https://www.exodus.io/download/images/exchange.png</screenshot>
+    <screenshot>https://www.exodus.io/download/images/wallet.png</screenshot>
   </screenshots>
   <categories>
     <category>Utility</category>
