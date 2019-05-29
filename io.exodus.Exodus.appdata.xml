@@ -13,15 +13,16 @@
   <project_license>LicenseRef-proprietary</project_license>
   <url type="homepage">https://www.exodus.io/</url>
   <screenshots>
-    <screenshot type="default">https://www.exodus.io/img/exodus-portfolio-2017-08@2x.jpg</screenshot>
-    <screenshot>https://www.exodus.io/img/exodus-exchange-aurora-ss@2x.jpg</screenshot>
-    <screenshot>https://www.exodus.io/img/exodus-wallet-btc@2x.jpg</screenshot>
+    <screenshot type="default">https://www.exodus.io/download/images/portfolio.png</screenshot>
+    <screenshot>https://www.exodus.io/download/images/exchange.png</screenshot>
+    <screenshot>https://www.exodus.io/download/images/wallet.png</screenshot>
   </screenshots>
   <categories>
     <category>Utility</category>
   </categories>
   <releases>
-    <release date="2019-05-10" version="19.5.10"/>
+    <release date="2019-05-24" version="19.5.24"/>
   </releases>
   <update_contact>tingping_at_fedoraproject.org</update_contact>
+  <content_rating type="oars-1.1" />
 </component>
