@@ -13,8 +13,9 @@
   <project_license>LicenseRef-proprietary</project_license>
   <url type="homepage">https://www.exodus.io/</url>
   <screenshots>
-    <screenshot type="default">https://www.exodus.io/img/desktop-app.png</screenshot>
-    <screenshot>https://www.exodus.io/img/fb-meta-rect.png</screenshot>
+    <screenshot type="default">https://www.exodus.io/desktop/img/portfolio-lsize.png</screenshot>
+    <screenshot>https://www.exodus.io/desktop/img/send-receive-lsize.png</screenshot>
+    <screenshot>https://www.exodus.io/desktop/img/exchange-assets-lsize.png</screenshot>
   </screenshots>
   <categories>
     <category>Utility</category>
