@@ -12,6 +12,8 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
   <url type="homepage">https://www.exodus.io/</url>
+  <icon height="64" width="64">io.exodus.Exodus-64x64.png</icon>
+  <icon height="128" width="128">io.exodus.Exodus-128x128.png</icon>
   <screenshots>
     <screenshot type="default">https://www.exodus.io/img/desktop-app.png</screenshot>
     <screenshot>https://www.exodus.io/img/fb-meta-rect.png</screenshot>
