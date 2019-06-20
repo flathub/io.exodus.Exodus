@@ -22,6 +22,8 @@
       "build-commands": [
         "install -Dm644 io.exodus.Exodus.desktop /app/share/applications/exodus.desktop",
         "install -Dm644 io.exodus.Exodus.appdata.xml /app/share/appdata/io.exodus.Exodus.appdata.xml",
+        "install -Dm644 -t /app/share/icons/hicolor/64x64/apps io.exodus.Exodus-16x16.png",
+        "install -Dm644 -t /app/share/icons/hicolor/64x64/apps io.exodus.Exodus-32x32.png",
         "install -Dm644 -t /app/share/icons/hicolor/64x64/apps io.exodus.Exodus-64x64.png",
         "install -Dm644 -t /app/share/icons/hicolor/128x128/apps io.exodus.Exodus-128x128.png",
         "install -Dm644 -t /app/share/icons/hicolor/256x256/apps io.exodus.Exodus-256x256.png",
@@ -53,6 +55,14 @@
           "sha256": "ab9141523de659ac7c1d692cd4e9eb4efeb52a1fa00d2d10f46781ef39f49938",
           "size": 106211881,
           "filename": "exodus.zip"
+        },
+        {
+          "type": "file",
+          "path": "io.exodus.Exodus-16x16.png"
+        },
+        {
+          "type": "file",
+          "path": "io.exodus.Exodus-32x32.png"
         },
         {
           "type": "file",
