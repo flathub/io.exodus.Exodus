@@ -13,6 +13,7 @@
     "--share=ipc",
     "--share=network",
     "--socket=x11",
+    "--socket=pulseaudio",
     "--device=dri"
   ],
   "modules": [
@@ -47,9 +48,9 @@
         },
         {
           "type": "extra-data",
-          "url": "https://exodusbin.azureedge.net/releases/exodus-linux-x64-19.8.15.zip",
-          "sha256": "5e2eaa03982e95594a638e3641aefa8d025728a54678a8a9495af60c3f80fdd9",
-          "size": 88674055,
+          "url": "https://exodusbin.azureedge.net/releases/exodus-linux-x64-19.8.29.zip",
+          "sha256": "f170f41588139918ea248e3988d643e087b5e93c4e7dc1cefbdbfff7e1f603d6",
+          "size": 93510447,
           "filename": "exodus.zip"
         },
         {
