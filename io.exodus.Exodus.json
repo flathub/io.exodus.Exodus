@@ -53,7 +53,8 @@
           "type": "script",
           "dest-filename": "exodus",
           "commands": [
-            "exec env TMPDIR=$XDG_CACHE_HOME /app/extra/Exodus $@"
+	    "export TMPDIR=\"$XDG_RUNTIME_DIR/app/$FLATPAK_ID\"",
+            "exec zypak-wrapper /app/extra/Exodus \"$@\""
           ]
         },
         {
