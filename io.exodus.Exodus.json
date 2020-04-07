@@ -17,6 +17,16 @@
     "--device=dri"
   ],
   "modules": [
+  {
+    "name": "zypak",
+    "sources": [
+      {
+        "type": "git",
+        "url": "https://github.com/refi64/zypak",
+        "tag": "v2020.02"
+      }
+      ]
+    },
     {
       "name": "exodus",
       "buildsystem": "simple",
