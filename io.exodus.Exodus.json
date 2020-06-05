@@ -49,9 +49,9 @@
         },
         {
           "type": "extra-data",
-          "url": "https://downloads.exodus.io/releases/exodus-linux-x64-20.5.22.zip",
-          "sha256": "45700e4efe50c594f455d38317edf8803facaae51244b5abec8893c74f7711b0",
-          "size": 106216272,
+          "url": "https://downloads.exodus.io/releases/exodus-linux-x64-20.6.5.zip",
+          "sha256": "7f194f252728d31723cddc1f54f95cf2670a2188163ef37a92a4620dcfaca32c",
+          "size": 106623897,
           "filename": "exodus.zip"
         },
         {
