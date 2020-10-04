@@ -49,9 +49,9 @@
         },
         {
           "type": "extra-data",
-          "url": "https://downloads.exodus.io/releases/exodus-linux-x64-20.8.14.zip",
-          "sha256": "6820559ac30b4f39c85f63113a0a3bb237ac64d67cecc64aa089e893f0bd743c",
-          "size": 111789838,
+          "url": "https://downloads.exodus.io/releases/exodus-linux-x64-20.9.25.zip",
+          "sha256": "57183e933467ac873f4b938281b96e158eb6977397b5e5a300fe7a5dd3094d25",
+          "size": 108164551,
           "filename": "exodus.zip"
         },
         {
