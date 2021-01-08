@@ -2,9 +2,9 @@
   "app-id": "io.exodus.Exodus",
   "branch": "stable",
   "base": "org.electronjs.Electron2.BaseApp",
-  "base-version": "19.08",
+  "base-version": "20.08",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "19.08",
+  "runtime-version": "20.08",
   "sdk": "org.freedesktop.Sdk",
   "command": "exodus",
   "separate-locales": false,
@@ -49,9 +49,9 @@
         },
         {
           "type": "extra-data",
-          "url": "https://downloads.exodus.io/releases/exodus-linux-x64-20.9.25.zip",
-          "sha256": "57183e933467ac873f4b938281b96e158eb6977397b5e5a300fe7a5dd3094d25",
-          "size": 108164551,
+          "url": "https://downloads.exodus.io/releases/exodus-linux-x64-20.12.31.zip",
+          "sha256": "7f7f5e15c5189410b6fe0c326033700992fc17c5750d2be8b076c52fc7c16c3a",
+          "size": 119468530,
           "filename": "exodus.zip"
         },
         {
