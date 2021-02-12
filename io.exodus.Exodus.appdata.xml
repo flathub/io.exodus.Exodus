@@ -11,17 +11,17 @@
   </description>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
-  <url type="homepage">https://www.exodus.io/</url>
+  <url type="homepage">https://www.exodus.com/</url>
   <screenshots>
-    <screenshot type="default">https://www.exodus.io/desktop/img/portfolio-lsize.png</screenshot>
-    <screenshot>https://www.exodus.io/desktop/img/send-receive-lsize.png</screenshot>
-    <screenshot>https://www.exodus.io/desktop/img/exchange-assets-lsize.png</screenshot>
+    <screenshot type="default">https://www.exodus.com/desktop/img/portfolio-lsize.png</screenshot>
+    <screenshot>https://www.exodus.com/desktop/img/send-receive-lsize.png</screenshot>
+    <screenshot>https://www.exodus.com/desktop/img/exchange-assets-lsize.png</screenshot>
   </screenshots>
   <categories>
     <category>Utility</category>
   </categories>
   <releases>
-    <release date="2021-01-29" version="21.1.29"/>
+    <release date="2021-02-12" version="21.2.12"/>
   </releases>
   <update_contact>tingping_at_fedoraproject.org</update_contact>
   <content_rating type="oars-1.1" />
