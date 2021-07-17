@@ -21,6 +21,7 @@
     <category>Utility</category>
   </categories>
   <releases>
+    <release date="2021-07-17" version="21.7.17"/>
     <release date="2021-07-02" version="21.7.2"/>
     <release date="2021-06-18" version="21.6.18"/>
     <release date="2021-06-05" version="21.6.5"/>
