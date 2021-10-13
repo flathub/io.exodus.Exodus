@@ -49,9 +49,9 @@
         },
         {
           "type": "extra-data",
-          "url": "https://downloads.exodus.com/releases/exodus-linux-x64-21.10.8.zip",
-          "sha256": "8e0b8d40b3b61aa33704daaaab7b5c63793b46634e77710a68c7400e2a4c0562",
-          "size": 153029154,
+          "url": "https://downloads.exodus.com/releases/exodus-linux-x64-21.10.11.zip",
+          "sha256": "57fc112e1e30e3523264fb56eae8ee3b3597bb4407487db3402f413195f35a81",
+          "size": 153030808,
           "filename": "exodus.zip"
         },
         {
