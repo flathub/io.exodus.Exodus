@@ -21,9 +21,10 @@
     <category>Utility</category>
   </categories>
   <releases>
+    <release date="2021-11-24" version="21.11.24"/>
     <release date="2021-11-19" version="21.11.19"/>
-    <release date="2021-10-25" version="21.11.11"/>
-    <release date="2021-10-25" version="21.11.5"/>
+    <release date="2021-11-11" version="21.11.11"/>
+    <release date="2021-11-05" version="21.11.5"/>
     <release date="2021-10-25" version="21.10.25"/>
     <release date="2021-10-11" version="21.10.11"/>
     <release date="2021-10-08" version="21.10.8"/>
