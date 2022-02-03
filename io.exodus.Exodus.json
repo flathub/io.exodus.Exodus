@@ -54,7 +54,13 @@
           "url": "https://downloads.exodus.com/releases/exodus-linux-x64-22.1.28.zip",
           "sha256": "94d9e314baf8944fc1100dac7e894b89fdd923a88f6195f613e241e0fbb4c8b4",
           "size": 174764743,
-          "filename": "exodus.zip"
+          "filename": "exodus.zip",
+          "x-checker-data": {
+            "type": "html",
+            "url": "https://www.exodus.com/releases/",
+            "version-pattern": "https://downloads.exodus.com/releases/hashes-exodus-([\\d\\.-]+).txt",
+            "url-template": "https://downloads.exodus.com/releases/exodus-linux-x64-$version.zip"
+          }
         },
         {
           "type": "file",
