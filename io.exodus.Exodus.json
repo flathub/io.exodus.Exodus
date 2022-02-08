@@ -1,88 +1,88 @@
 {
-  "app-id": "io.exodus.Exodus",
-  "branch": "stable",
-  "base": "org.electronjs.Electron2.BaseApp",
-  "base-version": "21.08",
-  "runtime": "org.freedesktop.Platform",
-  "runtime-version": "21.08",
-  "sdk": "org.freedesktop.Sdk",
-  "command": "exodus",
-  "separate-locales": false,
-  "tags": [
-    "proprietary"
-  ],
-  "finish-args": [
-    "--share=ipc",
-    "--share=network",
-    "--socket=x11",
-    "--socket=pulseaudio",
-    "--device=dri"
-  ],
-  "modules": [
-    {
-      "name": "exodus",
-      "buildsystem": "simple",
-      "build-commands": [
-        "install -Dm644 io.exodus.Exodus.desktop /app/share/applications/io.exodus.Exodus.desktop",
-        "install -Dm644 io.exodus.Exodus.appdata.xml /app/share/appdata/io.exodus.Exodus.appdata.xml",
-        "install -Dm644 -t /app/share/icons/hicolor/scalable/apps io.exodus.Exodus.svg",
-        "install -Dm644 io.exodus.Exodus-128x128.png /app/share/icons/hicolor/128x128/apps/io.exodus.Exodus.png",
-        "install -Dm644 io.exodus.Exodus-64x64.png /app/share/icons/hicolor/64x64/apps/io.exodus.Exodus.png",
-        "install -D apply_extra /app/bin/apply_extra",
-        "install -D exodus /app/bin/exodus"
-      ],
-      "sources": [
+    "app-id": "io.exodus.Exodus",
+    "branch": "stable",
+    "base": "org.electronjs.Electron2.BaseApp",
+    "base-version": "21.08",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "21.08",
+    "sdk": "org.freedesktop.Sdk",
+    "command": "exodus",
+    "separate-locales": false,
+    "tags": [
+        "proprietary"
+    ],
+    "finish-args": [
+        "--share=ipc",
+        "--share=network",
+        "--socket=x11",
+        "--socket=pulseaudio",
+        "--device=dri"
+    ],
+    "modules": [
         {
-          "type": "script",
-          "dest-filename": "apply_extra",
-          "commands": [
-            "unzip exodus.zip > /dev/null",
-            "mv Exodus-linux-x64/* .",
-            "rm -r Exodus-linux-x64 *.zip"
-          ]
-        },
-        {
-          "type": "script",
-          "dest-filename": "exodus",
-          "commands": [
-            "export TMPDIR=\"$XDG_RUNTIME_DIR/app/$FLATPAK_ID\"",
-            "exec zypak-wrapper /app/extra/Exodus \"$@\""
-          ]
-        },
-        {
-          "type": "extra-data",
-          "url": "https://downloads.exodus.com/releases/exodus-linux-x64-22.1.28.zip",
-          "sha256": "94d9e314baf8944fc1100dac7e894b89fdd923a88f6195f613e241e0fbb4c8b4",
-          "size": 174764743,
-          "filename": "exodus.zip",
-          "x-checker-data": {
-            "type": "html",
-            "url": "https://www.exodus.com/releases/",
-            "version-pattern": "https://downloads.exodus.com/releases/hashes-exodus-([\\d\\.-]+).txt",
-            "url-template": "https://downloads.exodus.com/releases/exodus-linux-x64-$version.zip"
-          }
-        },
-        {
-          "type": "file",
-          "path": "io.exodus.Exodus.svg"
-        },
-        {
-          "type": "file",
-          "path": "io.exodus.Exodus-128x128.png"
-        },
-        {
-          "type": "file",
-          "path": "io.exodus.Exodus-64x64.png"
-        },
-        {
-          "type": "file",
-          "path": "io.exodus.Exodus.desktop"
-        },
-        {
-          "type": "file",
-          "path": "io.exodus.Exodus.appdata.xml"
+            "name": "exodus",
+            "buildsystem": "simple",
+            "build-commands": [
+                "install -Dm644 io.exodus.Exodus.desktop /app/share/applications/io.exodus.Exodus.desktop",
+                "install -Dm644 io.exodus.Exodus.appdata.xml /app/share/appdata/io.exodus.Exodus.appdata.xml",
+                "install -Dm644 -t /app/share/icons/hicolor/scalable/apps io.exodus.Exodus.svg",
+                "install -Dm644 io.exodus.Exodus-128x128.png /app/share/icons/hicolor/128x128/apps/io.exodus.Exodus.png",
+                "install -Dm644 io.exodus.Exodus-64x64.png /app/share/icons/hicolor/64x64/apps/io.exodus.Exodus.png",
+                "install -D apply_extra /app/bin/apply_extra",
+                "install -D exodus /app/bin/exodus"
+            ],
+            "sources": [
+                {
+                    "type": "script",
+                    "dest-filename": "apply_extra",
+                    "commands": [
+                        "unzip exodus.zip > /dev/null",
+                        "mv Exodus-linux-x64/* .",
+                        "rm -r Exodus-linux-x64 *.zip"
+                    ]
+                },
+                {
+                    "type": "script",
+                    "dest-filename": "exodus",
+                    "commands": [
+                        "export TMPDIR=\"$XDG_RUNTIME_DIR/app/$FLATPAK_ID\"",
+                        "exec zypak-wrapper /app/extra/Exodus \"$@\""
+                    ]
+                },
+                {
+                    "type": "extra-data",
+                    "url": "https://downloads.exodus.com/releases/exodus-linux-x64-22.2.8.zip",
+                    "sha256": "8412409aeb804781620f9f415c31193de67d7cab8b89258d3d760861107033d0",
+                    "size": 178470574,
+                    "filename": "exodus.zip",
+                    "x-checker-data": {
+                        "type": "html",
+                        "url": "https://www.exodus.com/releases/",
+                        "version-pattern": "https://downloads.exodus.com/releases/hashes-exodus-([\\d\\.-]+).txt",
+                        "url-template": "https://downloads.exodus.com/releases/exodus-linux-x64-$version.zip"
+                    }
+                },
+                {
+                    "type": "file",
+                    "path": "io.exodus.Exodus.svg"
+                },
+                {
+                    "type": "file",
+                    "path": "io.exodus.Exodus-128x128.png"
+                },
+                {
+                    "type": "file",
+                    "path": "io.exodus.Exodus-64x64.png"
+                },
+                {
+                    "type": "file",
+                    "path": "io.exodus.Exodus.desktop"
+                },
+                {
+                    "type": "file",
+                    "path": "io.exodus.Exodus.appdata.xml"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
