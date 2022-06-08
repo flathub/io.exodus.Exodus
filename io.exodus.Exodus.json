@@ -51,9 +51,9 @@
                 },
                 {
                     "type": "extra-data",
-                    "url": "https://downloads.exodus.com/releases/exodus-linux-x64-22.6.3.zip",
-                    "sha256": "8b92bc32f4c596bfdac09cccc2b274192b430f0fb67807ceffa1f17952b95d23",
-                    "size": 184542905,
+                    "url": "https://downloads.exodus.com/releases/exodus-linux-x64-22.6.8.zip",
+                    "sha256": "f025c44ca90e4063ae0a51081c4035cc5be0b30257272d2df748e67004969f18",
+                    "size": 184544314,
                     "filename": "exodus.zip",
                     "x-checker-data": {
                         "type": "html",
