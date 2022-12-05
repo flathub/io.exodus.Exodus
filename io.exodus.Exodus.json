@@ -51,9 +51,9 @@
                 },
                 {
                     "type": "extra-data",
-                    "url": "https://downloads.exodus.com/releases/exodus-linux-x64-22.11.21.zip",
-                    "sha256": "dbdbd7089d63b12d7f94c1b52beb1746a1b7246b59306267e070952266930354",
-                    "size": 201724325,
+                    "url": "https://downloads.exodus.com/releases/exodus-linux-x64-22.12.5.zip",
+                    "sha256": "fe857b521dacb5691c1bbef1978d2de4a01eb50467cc8593cf4824ca34c03abf",
+                    "size": 201890568,
                     "filename": "exodus.zip",
                     "x-checker-data": {
                         "type": "html",
