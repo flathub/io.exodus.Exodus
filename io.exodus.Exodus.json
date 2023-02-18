@@ -51,9 +51,9 @@
                 },
                 {
                     "type": "extra-data",
-                    "url": "https://downloads.exodus.com/releases/exodus-linux-x64-23.2.13.zip",
-                    "sha256": "4191d8014edc96da8213c20e50d8a63dd3b24d7d21ec4a853ae10670d6911a64",
-                    "size": 198851474,
+                    "url": "https://downloads.exodus.com/releases/exodus-linux-x64-23.2.17.zip",
+                    "sha256": "dfdb6a3f7e1de5c3e100c56d9fc6e092d9f61f03c661b7a4aab95e7b6136a1ea",
+                    "size": 198862750,
                     "filename": "exodus.zip",
                     "x-checker-data": {
                         "type": "html",
