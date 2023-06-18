@@ -37,8 +37,7 @@
                     "dest-filename": "apply_extra",
                     "commands": [
                         "unzip exodus.zip > /dev/null",
-                        "mv Exodus-linux-x64/* .",
-                        "rm -r Exodus-linux-x64 *.zip"
+                        "rm -r *.zip"
                     ]
                 },
                 {
