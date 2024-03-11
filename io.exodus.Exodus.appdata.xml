@@ -14,9 +14,9 @@
   <url type="homepage">https://www.exodus.com/</url>
   <launchable type="desktop-id">io.exodus.Exodus.desktop</launchable>
   <screenshots>
-    <screenshot type="default"> <image type="source">https://www.exodus.com/desktop/img/portfolio-lsize.png</image> </screenshot>
-    <screenshot> <image type="source">https://www.exodus.com/desktop/img/send-receive-lsize.png</image> </screenshot>
-    <screenshot> <image type="source">https://www.exodus.com/desktop/img/exchange-assets-lsize.png</image> </screenshot>
+    <screenshot type="default"> <image type="thumbnail">https://www.exodus.com/desktop/img/portfolio-lsize.png</image> </screenshot>
+    <screenshot> <image type="thumbnail">https://www.exodus.com/desktop/img/send-receive-lsize.png</image> </screenshot>
+    <screenshot> <image type="thumbnail">https://www.exodus.com/desktop/img/exchange-assets-lsize.png</image> </screenshot>
   </screenshots>
   <categories>
     <category>Utility</category>
