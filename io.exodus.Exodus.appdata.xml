@@ -12,10 +12,11 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
   <url type="homepage">https://www.exodus.com/</url>
+  <launchable type="desktop-id">io.exodus.Exodus.desktop</launchable>
   <screenshots>
-    <screenshot type="default">https://www.exodus.com/desktop/img/portfolio-lsize.png</screenshot>
-    <screenshot>https://www.exodus.com/desktop/img/send-receive-lsize.png</screenshot>
-    <screenshot>https://www.exodus.com/desktop/img/exchange-assets-lsize.png</screenshot>
+    <screenshot type="default"> <image type="source">https://www.exodus.com/desktop/img/portfolio-lsize.png</image> </screenshot>
+    <screenshot> <image type="source">https://www.exodus.com/desktop/img/send-receive-lsize.png</image> </screenshot>
+    <screenshot> <image type="source">https://www.exodus.com/desktop/img/exchange-assets-lsize.png</image> </screenshot>
   </screenshots>
   <categories>
     <category>Utility</category>
