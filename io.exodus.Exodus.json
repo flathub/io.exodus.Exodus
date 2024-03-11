@@ -32,6 +32,17 @@
             ],
             "sources": [
                 {
+                    "name": "glib-networking",
+                    "buildsystem": "meson",
+                    "sources": [
+                        {
+                            "type": "archive",
+                            "url": "https://download.gnome.org/sources/glib-networking/2.76/glib-networking-2.76.0.tar.xz",
+                            "sha256": "149a05a179e629a538be25662aa324b499d7c4549c5151db5373e780a1bf1b9a"
+                        }
+                    ]
+                },
+                {
                     "type": "script",
                     "dest-filename": "apply_extra",
                     "commands": [
