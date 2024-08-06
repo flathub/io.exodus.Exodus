@@ -1,9 +1,9 @@
 {
     "app-id": "io.exodus.Exodus",
     "base": "org.electronjs.Electron2.BaseApp",
-    "base-version": "22.08",
+    "base-version": "23.08",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "22.08",
+    "runtime-version": "23.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "exodus",
     "separate-locales": false,
@@ -50,9 +50,9 @@
                 },
                 {
                     "type": "extra-data",
-                    "url": "https://downloads.exodus.com/releases/exodus-linux-x64-24.9.7.zip",
-                    "sha256": "bf1b21b60eb855c7f0674ebdf021a7fe71f87de0d6bffff69a1c7f982bc10ef2",
-                    "size": 198299992,
+                    "url": "https://downloads.exodus.com/releases/exodus-linux-x64-24.13.3.zip",
+                    "sha256": "8613c75a8fa7417825b81eaa9f9ef09dd5f57ac94bbf794ba5dc66f8238630ef",
+                    "size": 198392195,
                     "filename": "exodus.zip",
                     "x-checker-data": {
                         "type": "html",
