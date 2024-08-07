@@ -29,6 +29,8 @@
   </categories>
   <releases>
     <release version="24.23.3" date="2024-05-30">
+      <description></description>
+    </release>
     <release version="24.21.3" date="2024-05-15"/>
     <release version="24.19.4" date="2024-05-10"/>
     <release version="24.19.3" date="2024-05-02"/>
