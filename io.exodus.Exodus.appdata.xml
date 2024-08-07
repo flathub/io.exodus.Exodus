@@ -14,16 +14,31 @@
   <url type="homepage">https://www.exodus.com/</url>
   <launchable type="desktop-id">io.exodus.Exodus.desktop</launchable>
   <screenshots>
-    <screenshot type="default"> <image type="source">https://www.exodus.com/desktop/img/portfolio-lsize.png</image> </screenshot>
-    <screenshot> <image type="source">https://www.exodus.com/desktop/img/send-receive-lsize.png</image> </screenshot>
-    <screenshot> <image type="source">https://www.exodus.com/desktop/img/exchange-assets-lsize.png</image> </screenshot>
+    <screenshot type="default">
+      <image type="source">https://www.exodus.com/desktop/img/portfolio-lsize.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://www.exodus.com/desktop/img/send-receive-lsize.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://www.exodus.com/desktop/img/exchange-assets-lsize.png</image>
+    </screenshot>
   </screenshots>
   <categories>
     <category>Utility</category>
   </categories>
   <releases>
     <release version="24.19.4" date="2024-05-10"/>
+    <release version="24.19.3" date="2024-05-02"/>
+    <release version="24.17.5" date="2024-04-18"/>
+    <release version="24.15.5" date="2024-04-09"/>
+    <release version="24.15.4" date="2024-04-04"/>
     <release version="24.13.3" date="2024-03-21"/>
+    <release version="24.11.5" date="2024-03-13"/>
+    <release version="24.11.4" date="2024-03-08"/>
+    <release version="24.9.7" date="2024-02-27"/>
+    <release version="24.2.12" date="2024-02-08"/>
+    <release version="24.1.29" date="2024-01-25"/>
     <release version="24.1.15" date="2024-01-12"/>
     <release version="24.1.4" date="2024-01-04"/>
     <release version="24.1.1" date="2023-12-22"/>
