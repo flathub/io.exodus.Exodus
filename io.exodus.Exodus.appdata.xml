@@ -28,6 +28,7 @@
     <category>Utility</category>
   </categories>
   <releases>
+    <release version="24.17.5" date="2024-04-18"/>
     <release version="24.15.5" date="2024-04-09"/>
     <release version="24.15.4" date="2024-04-04"/>
     <release version="24.13.3" date="2024-03-21"/>
