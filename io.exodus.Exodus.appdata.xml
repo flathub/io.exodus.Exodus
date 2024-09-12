@@ -28,21 +28,16 @@
     <category>Utility</category>
   </categories>
   <releases>
-    <release version="24.27.4" date="2024-07-04">
-      <description></description>
-    </release>
-    <release version="24.27.3" date="2024-06-27">
-      <description></description>
-    </release>
-    <release version="24.25.5" date="2024-06-18">
-      <description></description>
-    </release>
-    <release version="24.25.4" date="2024-06-14">
-      <description></description>
-    </release>
-    <release version="24.23.3" date="2024-05-30">
-      <description></description>
-    </release>
+    <release version="24.37.2" date="2024-09-09"/>
+    <release version="24.33.5" date="2024-08-27"/>
+    <release version="24.33.4" date="2024-08-13"/>
+    <release version="24.33.3" date="2024-08-12"/>
+    <release version="24.31.4" date="2024-07-29"/>
+    <release version="24.29.2" date="2024-07-15"/>
+    <release version="24.27.3" date="2024-06-27"/>
+    <release version="24.25.5" date="2024-06-18"/>
+    <release version="24.25.4" date="2024-06-14"/>
+    <release version="24.23.3" date="2024-05-30"/>
     <release version="24.21.3" date="2024-05-15"/>
     <release version="24.19.4" date="2024-05-10"/>
     <release version="24.19.3" date="2024-05-02"/>
