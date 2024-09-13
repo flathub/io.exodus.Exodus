@@ -52,7 +52,7 @@
                     "type": "extra-data",
                     "url": "https://downloads.exodus.com/releases/exodus-linux-x64-24.37.2.zip",
                     "sha256": "b2aab86f51ab5321f1f66ca22b36f8c5a679201d5178fde99227dd38daadf9d1",
-                    "size": 223155354,
+                    "size": 219889184,
                     "filename": "exodus.zip",
                     "x-checker-data": {
                         "type": "html",
