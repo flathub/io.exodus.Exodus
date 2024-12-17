@@ -50,9 +50,9 @@
                 },
                 {
                     "type": "extra-data",
-                    "url": "https://downloads.exodus.com/releases/exodus-linux-x64-24.47.4.zip",
-                    "sha256": "421eb3f7a1d93789701ce8c4bbf3cc47594619cf6f371a8b1e677ed50ec86764",
-                    "size": 221087121,
+                    "url": "https://downloads.exodus.com/releases/exodus-linux-x64-24.51.4.zip",
+                    "sha256": "be6075dd2a4da5c8bebb2f9551b003685cef584c420281e764f7b487fb124d43",
+                    "size": 22438516,
                     "filename": "exodus.zip",
                     "x-checker-data": {
                         "type": "html",
