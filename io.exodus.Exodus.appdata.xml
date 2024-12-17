@@ -15,13 +15,13 @@
   <launchable type="desktop-id">io.exodus.Exodus.desktop</launchable>
   <screenshots>
     <screenshot type="default">
-      <image type="source">https://www.exodus.com/desktop/img/portfolio-lsize.png</image>
+      <image type="source">https://raw.githubusercontent.com/flathub/io.exodus.Exodus/master/screenshots/portfolio-lsize.png</image>
     </screenshot>
     <screenshot>
-      <image type="source">https://www.exodus.com/desktop/img/send-receive-lsize.png</image>
+      <image type="source">https://raw.githubusercontent.com/flathub/io.exodus.Exodus/master/screenshots/send-receive-lsize.png</image>
     </screenshot>
     <screenshot>
-      <image type="source">https://www.exodus.com/desktop/img/exchange-assets-lsize.png</image>
+      <image type="source">https://raw.githubusercontent.com/flathub/io.exodus.Exodus/master/screenshots/exchange-assets-lsize.png</image>
     </screenshot>
   </screenshots>
   <categories>
