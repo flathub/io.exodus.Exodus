@@ -58,7 +58,8 @@
                         "type": "html",
                         "url": "https://www.exodus.com/releases/",
                         "version-pattern": "https://downloads.exodus.com/releases/hashes-exodus-([\\d\\.-]+).txt",
-                        "url-template": "https://downloads.exodus.com/releases/exodus-linux-x64-$version.zip"
+                        "url-template": "https://downloads.exodus.com/releases/exodus-linux-x64-$version.zip",
+                        "is-main-source": true
                     }
                 },
                 {
