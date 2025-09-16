@@ -24,9 +24,14 @@
             "build-commands": [
                 "install -Dm644 io.exodus.Exodus.desktop /app/share/applications/io.exodus.Exodus.desktop",
                 "install -Dm644 io.exodus.Exodus.appdata.xml /app/share/appdata/io.exodus.Exodus.appdata.xml",
-                "install -Dm644 -t /app/share/icons/hicolor/scalable/apps io.exodus.Exodus.svg",
-                "install -Dm644 io.exodus.Exodus-128x128.png /app/share/icons/hicolor/128x128/apps/io.exodus.Exodus.png",
-                "install -Dm644 io.exodus.Exodus-64x64.png /app/share/icons/hicolor/64x64/apps/io.exodus.Exodus.png",
+                "install -Dm644 -t /app/share/icons/hicolor/scalable/apps icons/io.exodus.Exodus.svg",
+                "install -Dm644 -t /app/share/icons/hicolor/512x512/apps icons/png/512x512/io.exodus.Exodus.png",
+                "install -Dm644 -t /app/share/icons/hicolor/256x256/apps icons/png/256x256/io.exodus.Exodus.png",
+                "install -Dm644 -t /app/share/icons/hicolor/128x128/apps icons/png/128x128/io.exodus.Exodus.png",
+                "install -Dm644 -t /app/share/icons/hicolor/64x64/apps icons/png/64x64/io.exodus.Exodus.png",
+                "install -Dm644 -t /app/share/icons/hicolor/48x48/apps icons/png/48x48/io.exodus.Exodus.png",
+                "install -Dm644 -t /app/share/icons/hicolor/32x32/apps icons/png/32x32/io.exodus.Exodus.png",
+                "install -Dm644 -t /app/share/icons/hicolor/16x16/apps icons/png/16x16/io.exodus.Exodus.png",
                 "install -D apply_extra /app/bin/apply_extra",
                 "install -D exodus /app/bin/exodus"
             ],
@@ -63,16 +68,8 @@
                     }
                 },
                 {
-                    "type": "file",
-                    "path": "io.exodus.Exodus.svg"
-                },
-                {
-                    "type": "file",
-                    "path": "io.exodus.Exodus-128x128.png"
-                },
-                {
-                    "type": "file",
-                    "path": "io.exodus.Exodus-64x64.png"
+                    "type": "dir",
+                    "path": "icons"
                 },
                 {
                     "type": "file",
