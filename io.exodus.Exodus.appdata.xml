@@ -29,6 +29,9 @@
     <category>Utility</category>
   </categories>
   <releases>
+    <release version="26.3.11" date="2026-03-11">
+      <description></description>
+    </release>
     <release version="25.40.6" date="2025-10-09">
       <description></description>
     </release>
