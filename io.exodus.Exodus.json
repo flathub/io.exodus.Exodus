@@ -51,9 +51,9 @@
                 },
                 {
                     "type": "extra-data",
-                    "url": "https://downloads.exodus.com/releases/exodus-linux-x64-26.3.11.zip",
-                    "sha256": "a62d549791cde1f23edc2ba59f45b3d1c3acce21ef9cf63e5029bebcf8599e73",
-                    "size": 165654860,
+                    "url": "https://downloads.exodus.com/releases/exodus-linux-x64-26.11.20.zip",
+                    "sha256": "4423d1c277f7dad9470dd4ed4db426d605f08b4001dfbc536a6ea085c34c9059",
+                    "size": 168858748,
                     "filename": "exodus.zip",
                     "x-checker-data": {
                         "type": "html",
